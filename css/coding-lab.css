@@ -40,7 +40,7 @@ body.dark-mode .project-page {
 }
 
 img {
-    max-width: 400px;
+    max-width: min(400px, 100%);
     height: auto;
     border: 5px solid var(--line);
     border-radius: 24px;
